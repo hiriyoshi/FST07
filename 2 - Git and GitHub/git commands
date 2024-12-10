@@ -16,3 +16,15 @@ Legend in git repository
 U - Untracked
 A - Added
 M - Modified
+
+Check on the working tree/ Status of our commit
+-git status
+
+Creating a Branch
+-git branch "branchname"
+
+List of all the branches
+-git branch -a
+
+Switch to another branch
+-git checkout "branchname"
