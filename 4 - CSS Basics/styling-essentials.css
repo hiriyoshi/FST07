@@ -1,0 +1,84 @@
+#text-styling{
+    /* Default: Times New Roman */
+    font-family:Arial, Helvetica, sans-serif;
+
+    /* Font-weight - Keywords */
+    font-weight: bold;
+    font-weight: lighter;
+    font-weight: bolder;
+    font-weight: normal;
+
+    /* Font-weigth - number value */
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 300;
+    font-weight: 400;
+    font-weight: 500;
+    font-weight: 600; 
+    font-weight: 700;
+    font-weight: 800;
+    font-weight: 900;
+    font-weight: 950;
+
+    /* Text alignment */
+    text-align: right;
+    text-align: center;
+    text-align: left;
+
+    /* Font-style - emphasis */
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal;
+
+    /* Letter spacing - add space in each letter */
+    letter-spacing: -2px;
+    letter-spacing: 2px;
+    letter-spacing: normal;
+
+    /* Line height - add space bottom and top of the text */
+    line-height: 40px;
+    line-height: 2;
+    line-height: 200%;
+}
+
+#text-decoration{
+
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+    text-decoration: underline;
+
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+
+    text-decoration: red underline dotted  5px;
+}
+
+#colors{
+
+    color: green;
+    background-color: grey;
+
+    /* RGB - RED GREEN BLUE */
+    /* rgba - add opacity (fully visible to transparent) 1 - 0 */
+
+    color: rgb(0,255,255);
+    background-color: rgba(0,0,0,0.5);
+}
+
+#absolute-unit-px{
+    font-size: 30px;
+}
+
+#relative-unit-em{
+    font-size: 2em;
+}
+
+#relative-unit-rem{
+    font-size: 2rem;
+}

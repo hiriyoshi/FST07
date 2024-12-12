@@ -1,0 +1,29 @@
+.intro-paragraphs{
+    color: blue;
+}
+span{
+    color: green;
+}
+
+#main-heading{
+    font-weight: bold;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,.about-content{
+    color: tomato;
+}
+
+.article-container p{
+    color: red;
+}
+
+a:hover{
+    color:green;
+}
+
+a:active{
+    color: yellow;
+}
