@@ -1,0 +1,28 @@
+
+#relative {
+    background-color: #ffcc00;
+    position: relative;
+    top: 0px;
+    left: 200px;
+  }
+  #absolute {
+    background-color: #00ccff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+  }
+  #fixed {
+    background-color: #ff0000;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    padding: 10px;
+  }
+  #sticky {
+    background-color: #33cc33;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }

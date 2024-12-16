@@ -1,0 +1,26 @@
+.gridContainer {
+    display: grid;
+    /* How many columns, width for each column */
+    grid-template-columns: 200px 200px 200px 200px;
+    /* How many rows, height for each rows */
+    grid-template-rows: 200px 200px 200px 200px;
+    /* Using Fr - Fractional Units */
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    /* repeat(num, unit) */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Media Queries */
+/* 
+    Mobile Devices: Less than 481px
+    iPads, Tablets: 481px - 768px
+    Small Screens, Laptops: 769px - 1024px
+    Desktops, Large Screens: 1025px - 1200px
+    Extra Large Screens, TV: 1201px and greater
+*/
+@media screen and (min-width: 1025px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
