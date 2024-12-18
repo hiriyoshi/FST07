@@ -30,3 +30,4 @@ console.log("Email:", email);
 const birthday = "01-23-2000";
 console.log("Birthday:", birthday);
 // birthday = "01-25-2000"; TypeError: assignment to constant variable.
+
